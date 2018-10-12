@@ -333,6 +333,6 @@ Business Logic transitions can be made by overwriting the `state` key in the Bus
 
 # Adding your own business logic
 
-To add your own business logic to this server, simple modify/rewrite the `/my_project/my_app/views.py`
+To add your own business logic to this server, simple add to `/my_project/my_app/views.py`.
 
-Both `/my_project/my_app/views.py` and `/my_project/my_app/views.py` are example views.  Only `views.py` is used by the business logic server, but both are there as starting point examples.  Similarly, `/my_project/my_app/hotels.py` is just there to make the `hotel_booking` example work, and can be removed.
+`/my_project/my_app/views.py` is an example view.  Only `views.py` is used by the business logic server.
